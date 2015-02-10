@@ -1,0 +1,165 @@
+body {
+  background: #909090;
+  font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.container {
+  background: #CCCCCC; }
+
+.navbar-header .row2 {
+  width: 100%; }
+
+img {
+  border-radius: 5px;
+  margin-bottom: 15px; }
+
+.pup1 {
+  opacity: 0.5;
+  background: green; }
+
+.pup2 {
+  opacity: 0.8;
+  background: purple; }
+
+.pup3 {
+  opacity: 0.3;
+  background: blue; }
+
+.paragraph, .header h3, .paragraph2, .paragraph3, .address, .button1, .address1, address.plain {
+  margin-top: 20px;
+  -webkit-border: 1px solid purple;
+  -moz-border: 1px solid purple;
+  -ms-border: 1px solid purple;
+  -o-border: 1px solid purple;
+  border: 1px solid purple;
+  border-radius: 30px;
+  background: #B19CD9;
+  padding: 15px; }
+
+.header h1 {
+  font-style: oblique;
+  -webkit-font-style: oblique;
+  -moz-font-style: oblique;
+  -ms-font-style: oblique;
+  -o-font-style: oblique;
+  font-style: oblique;
+  color: #474747; }
+
+.header h3 {
+  -webkit-border: 1px dotted purple;
+  -moz-border: 1px dotted purple;
+  -ms-border: 1px dotted purple;
+  -o-border: 1px dotted purple;
+  border: 1px dotted purple;
+  width: 63%;
+  text-align: center; }
+
+.boldfont, .paragraph2, .paragraph3, .address, .button1, .address1 {
+  font-style: oblique;
+  -webkit-font-style: oblique;
+  -moz-font-style: oblique;
+  -ms-font-style: oblique;
+  -o-font-style: oblique;
+  font-style: oblique;
+  font-weight: bold;
+  color: purple; }
+
+.paragraph2, .paragraph3, .address, .button1, .address1 {
+  color: #5C995C;
+  background: #99FF99;
+  -webkit-border: 1px solid green;
+  -moz-border: 1px solid green;
+  -ms-border: 1px solid green;
+  -o-border: 1px solid green;
+  border: 1px solid green; }
+
+.paragraph3, .address, .button1 {
+  color: #0066FF;
+  background: #99C2FF;
+  -webkit-border: 1px solid blue;
+  -moz-border: 1px solid blue;
+  -ms-border: 1px solid blue;
+  -o-border: 1px solid blue;
+  border: 1px solid blue;
+  font-style: italic;
+  -webkit-font-style: italic;
+  -moz-font-style: italic;
+  -ms-font-style: italic;
+  -o-font-style: italic;
+  font-style: italic;
+  margin-bottom: 15px; }
+
+.address {
+  background: #CCCCCC; }
+
+.address1 {
+  color: black; }
+
+address {
+  font-weight: normal;
+  font-style: oblique;
+  -webkit-font-style: oblique;
+  -moz-font-style: oblique;
+  -ms-font-style: oblique;
+  -o-font-style: oblique;
+  font-style: oblique; }
+
+address.plain {
+  font-style: normal;
+  -webkit-font-style: normal;
+  -moz-font-style: normal;
+  -ms-font-style: normal;
+  -o-font-style: normal;
+  font-style: normal; }
+
+.button {
+  background-color: purple;
+  width: auto;
+  height: 45;
+  padding: 20px;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 20px;
+  margin: 1%;
+  -webkit-margin: 1%;
+  -moz-margin: 1%;
+  -ms-margin: 1%;
+  -o-margin: 1%;
+  -webkit-border: 2px;
+  -moz-border: 2px;
+  -ms-border: 2px;
+  -o-border: 2px;
+  border: 2px;
+  color: white; }
+
+.button1 {
+  background-color: blue;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  float: left;
+  margin: 4%;
+  -webkit-margin: 4%;
+  -moz-margin: 4%;
+  -ms-margin: 4%;
+  -o-margin: 4%;
+  border-radius: 5%;
+  color: white;
+  font-style: normal;
+  -webkit-font-style: normal;
+  -moz-font-style: normal;
+  -ms-font-style: normal;
+  -o-font-style: normal;
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold; }
+
+li {
+  list-style-type: none;
+  float: left;
+  display: inline-block;
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */

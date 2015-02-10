@@ -1,0 +1,176 @@
+$default-blue: aqua;
+
+@mixin font-style($font-style) {
+  font-style: $font-style;
+  -webkit-font-style: $font-style;
+  -moz-font-style: $font-style;
+  -ms-font-style: $font-style;
+  -o-font-style: $font-style;
+  font-style: $font-style;
+}
+
+@mixin font-family($font-family) {
+  font-family: $font-family;
+ -webkit-font-family: $font-family;
+ -moz-font-family: $font-family;
+ -ms-font-family: $font-family;
+ -o-font-family: $font-family;
+
+ 
+}
+@mixin margin($margin) {
+  margin: $margin;
+  -webkit-margin: $margin;
+  -moz-margin: $margin;
+  -ms-margin: $margin;
+  -o-margin: $margin;
+}
+
+@mixin border($border) {
+-webkit-border: $border;
+-moz-border: $border;
+-ms-border: $border;
+-o-border: $border;
+border: $border;
+}
+
+body{
+  background: #909090;
+ font-family: "Comic Sans MS", cursive, sans-serif;;
+}
+
+.container {
+  background: #CCCCCC;
+}
+
+.navbar-header .row2{
+  width: 100%;
+
+}
+ img {
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+ }
+
+ .pup1{
+  opacity: 0.5;
+  background: green;
+
+ }
+
+ .pup2{
+  opacity: 0.8;
+  background: purple;
+
+ }
+
+ .pup3{
+  opacity: 0.3;
+  background: blue;
+
+ }
+
+.paragraph {
+  
+  margin-top: 20px;
+  @include border(1px solid purple);
+  border-radius: 30px;
+  background: #B19CD9;
+  padding: 15px;
+}
+
+.header h1 {
+@include font-style(oblique);
+color: #474747;
+
+}
+
+.header h3 {
+  @include border(1px dotted purple);
+  width: 63%;
+  text-align: center;
+  @extend .paragraph;
+}
+.boldfont {
+  @include font-style(oblique);
+  font-weight: bold;
+  color: purple;
+}
+
+.paragraph2 {
+  @extend .paragraph;
+  @extend .boldfont;
+
+  color: #5C995C;
+  background: #99FF99;
+  @include border(1px solid green);
+}
+
+.paragraph3 {
+  @extend .paragraph2;
+  color: #0066FF;
+  background: #99C2FF;
+  @include border(1px solid blue);
+  @include font-style(italic);
+  margin-bottom: 15px;
+}
+
+.address {
+  @extend .paragraph3;
+  background: #CCCCCC;
+}
+
+.address1 {
+  @extend .paragraph2;
+  color: black;
+
+}
+address {
+  font-weight: normal;
+  @include font-style(oblique);
+}
+
+address.plain {
+  @include font-style(normal);
+  @extend .paragraph;
+}
+.button {
+  
+  background-color:purple;
+  width: auto;
+  height: 45;
+  padding: 20px;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 20px;
+  @include margin(1%);
+  @include border(2px);
+  color: white;
+
+}
+
+.button1 {
+  background-color: blue;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  float:left;
+  @include margin(4%);
+  @extend .paragraph3;
+  border-radius: 5%;
+  color: white;
+  @include font-style(normal);
+}
+a{
+   text-decoration: none;
+   color: purple;
+   font-weight: bold;
+}
+li {
+  list-style-type: none;
+  float:left;
+  display: inline-block;
+  margin: 0;
+ 
+}
